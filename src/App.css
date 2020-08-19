@@ -1,0 +1,70 @@
+.landing {
+  background: url("/images/landing.jpg") no-repeat;
+
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.pinned-nav {
+  z-index: 20;
+  position: fixed !important;
+  top: 0;
+  background-color: #030c10;
+}
+
+.register {
+  position: relative;
+  border-radius: 30px;
+
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  padding: 50px 100px 100px 100px;
+}
+.geeks {
+  margin-top: 75px;
+}
+.card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 40px !important;
+}
+.card {
+  margin-left: 20px !important;
+  height: fit-content;
+}
+.deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.nav-btn {
+  border-radius: 30px !important;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.login {
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  margin-top: 75px !important;
+
+  position: relative;
+  border-radius: 30px;
+  padding: 100px 200px 200px 200px;
+}
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
